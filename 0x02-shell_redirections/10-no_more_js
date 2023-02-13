@@ -1,3 +1,2 @@
-How do I paste external text into Vim?
-We can use the “+p and <Ctrl+r>+ in normal and command mode, respectively. However, it might be more convenient if we use the <Ctrl+Shift+v> hotkey since it does the same thing as “+p. Similarly, <Ctrl+Shift+c> will yank the text into the + register to be available for pasting outside of VimHow do I paste external text into Vim?
-We can use the “+p and <Ctrl+r>+ in normal and command mode, respectively. However, it might be more convenient if we use the <Ctrl+Shift+v> hotkey since it does the same thing as “+p. Similarly, <Ctrl+Shift+c> will yank the text into the + register to be available for pasting outside of Vim
+#!/bin/bash
+find -name "*.js" -type f -delete
